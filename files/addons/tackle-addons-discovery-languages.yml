@@ -1,0 +1,8 @@
+---
+apiVersion: tackle.konveyor.io/v1alpha1
+kind: Addon
+metadata:
+  name: discovery-languages
+  namespace: tackle-operator
+spec:
+  image: quay.io/fabiendupont/tackle-addons-discovery-languages:latest

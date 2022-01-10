@@ -1,0 +1,6 @@
+Record Type 1,Application Name,Description,Comments,Business Service,Dependency,Dependency Direction,Tag Type 1,Tag 1,Tag Type 2,Tag 2,Tag Type 3,Tag 3,Tag Type 4,Tag 4
+1,Customers,Customers management service,,Globex Retail,,,Operating System,RHEL 8,Database,Oracle,,,,
+1,Frontend,Retail portal,,Globex Retail,,,Operating System,RHEL 8,,,,,,
+1,Gateway,API Gateway,,Globex Retail,,,Operating System,RHEL 8,,,,,,
+1,Inventory,Inventory service,,Globex Retail,,,Operating System,RHEL 8,Database,PostgreSQL,,,,
+1,Orders,Orders service,,Globex Retail,,,Operating System,RHEL 8,Database,PostgreSQL,,,,

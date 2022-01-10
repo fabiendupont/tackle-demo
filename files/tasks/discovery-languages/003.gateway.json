@@ -1,0 +1,11 @@
+{
+    "name": "discover-language-customers",
+    "addon": "discovery-languages",
+    "data": {
+        "application": 3,
+	"git": {
+	    "url": "https://github.com/konveyor/mig-demo-apps",
+	    "path": "/apps/e2e-demo/gateway"
+	}
+    }
+}

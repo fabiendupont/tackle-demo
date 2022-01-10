@@ -1,0 +1,26 @@
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: tackle-hub-api
+  namespace: tackle-operator
+  labels:
+    app.kubernetes.io/name: tackle-hub
+    app.kubernetes.io/component: api
+    app.kubernetes.io/part-of: tackle
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /$2
+spec:
+  ingressClassName: nginx
+  tls:
+    - {}
+  rules:
+    - http:
+        paths:
+          - path: /hub(/|$)(.*)
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: tackle-hub-api
+                port:
+                  number: 8080

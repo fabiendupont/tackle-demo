@@ -1,0 +1,16 @@
+{
+    "name": "analyze-windup-customers",
+    "addon": "analysis-windup",
+    "data": {
+        "application": 1,
+	"git": {
+            "url": "https://github.com/konveyor/mig-demo-apps",
+            "path": "/apps/e2e-demo/customers-tomcat-legacy"
+	},
+	"windup": {
+            "targets": [
+                "cloud-readiness"
+	    ]
+	}
+    }
+}
